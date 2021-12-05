@@ -1,0 +1,11 @@
+# running in docker?
+:docker: false
+
+# redis hostname
+:redis_host: localhost
+
+# infura project id - obtain this on infura.io by registering for a free account
+:infura_project_id: 379376fa766845bc95bd1c764eb60d8f
+
+# NFT contact ids you want to track
+:nft_contract_ids: [0x749be8b9b19ae627cd5c8969f6a9bb433425bfe0, 0x749be8b9b19ae627cd5c8969f6a9bb433425bfe0]
