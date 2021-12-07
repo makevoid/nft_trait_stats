@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    excon (0.88.0)
+    rack (2.2.3)
+    redis (4.5.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  excon
+  rack
+  redis
+
+BUNDLED WITH
+   2.2.30

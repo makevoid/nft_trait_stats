@@ -2,7 +2,12 @@ require "bundler"
 Bundler.require :default
 require "json"
 require "yaml"
-require "lib/load_config"
+require "time"
+require_relative "lib/monkeypatches"
+require_relative "lib/load_config"
+include LoadConfig
+
+PATH = File.expand_path "../", __FILE__
 
 CONFIG  = load_config
 SECRETS = load_secrets
